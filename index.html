@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Dehaleesan KR - Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-white transition-colors duration-300">
+
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+
+    <div class="max-w-6xl mx-auto px-6 lg:px-8">
+
+        <header class="flex justify-between items-center py-8">
+            <a href="#" class="cursor-link text-2xl font-bold text-gray-900 dark:text-white">Dehaleesan KR</a>
+            
+            <nav class="flex items-center space-x-6">
+                <a href="#projects" class="nav-link-custom cursor-link">Projects</a>
+                <a href="#about" class="nav-link-custom cursor-link">About</a>
+                <a href="#contact" class="nav-link-custom cursor-link">Contact</a>
+                
+                <button id="theme-toggle" class="cursor-link p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors">
+                    <span id="theme-toggle-dark-icon" class="hidden">
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </span>
+                    <span id="theme-toggle-light-icon" class="hidden">
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    </span>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+           <section id="hero" class="min-h-screen flex items-center pt-24 pb-12 md:pt-0 md:pb-0 fade-in-section is-visible">
+    <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12 w-full">
+        
+        <div class="w-full md:w-3/5 text-center md:text-left z-10">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 !leading-tight tracking-tight">
+                Hi, I'm <span class="text-accent">Dehaleesan</span>
+            </h1>
+            
+            <div class="h-16 md:h-20 flex justify-center md:justify-start items-center">
+                <p class="text-xl md:text-3xl font-mono text-gray-700 dark:text-gray-200">
+                    <span id="typewriter" class="text-accent font-bold"></span><span class="cursor-blink ml-1 bg-gray-900 dark:bg-white w-1 h-6 md:h-8 inline-block align-middle"></span>
+                </p>
+            </div>
+
+            <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto md:mx-0 mb-8 mt-2">
+                Specializing in building efficient digital solutions and data-driven applications.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="#projects" class="bg-accent text-white font-medium py-3 px-8 rounded-lg transition-all transform shadow-lg hover:bg-accent-hover hover:scale-105 hover:shadow-accent/50 cursor-link text-center">
+                    View My Projects
+                </a>
+                <a href="#contact" class="bg-transparent border-2 border-gray-300 dark:border-gray-700 font-medium py-3 px-8 rounded-lg transition-all hover:border-accent hover:text-accent cursor-link text-gray-900 dark:text-white text-center">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+
+        <div class="w-full md:w-2/5 flex justify-center md:justify-end mb-8 md:mb-0">
+            <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 group">
+                <div class="absolute inset-0 bg-accent blur-[60px] opacity-40 rounded-full group-hover:opacity-60 transition-opacity duration-500"></div>
+                <img src="photo.jpg" 
+                     alt="Dehaleesan KR"
+                     class="relative z-10 rounded-full w-full h-full object-cover shadow-2xl border-4 border-white dark:border-gray-800 transform transition-transform duration-500 group-hover:scale-105">
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section id="projects" class="py-24 fade-in-section">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Featured Projects</h2>
+                
+                <div class="bento-grid">
+                    <a href="https://dehavlogger13.github.io/web1/" target="_blank" class="bento-item bento-item-1 cursor-link group">
+                        <img src="webpage.jpg" 
+                             alt="Live Web Project Thumbnail" 
+                             class="absolute inset-0 w-full h-full object-cover rounded-xl opacity-60 group-hover:opacity-75 transition-opacity duration-300">
+                        <div class="relative z-10 flex flex-col justify-end h-full">
+                            <span class="tag mb-2">Live Demo</span>
+                            <h3 class="text-xl md:text-2xl font-bold">Responsive Web Project</h3>
+                            <p class="text-sm opacity-80">A full-stack approach to building responsive and interactive web pages.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="bento-item bento-item-2 cursor-link group">
+                        <div class="relative z-10">
+                            <span class="tag mb-2">AI & ML</span>
+                            <h3 class="text-xl font-bold">Crop Disease AI</h3>
+                            <p class="text-sm opacity-80 mb-4">Early detection of Basal Bulb Rot disease in shallots.</p>
+                        </div>
+                        <img src="plant.jpg" 
+                             alt="City Bus Project Thumbnail" 
+                             class="w-full h-32 object-cover rounded-lg mt-auto group-hover:scale-105 transition-transform">
+                    </a>
+
+                    <a href="#" class="bento-item bento-item-3 cursor-link group">
+                        <span class="tag mb-2">IoT & Accessibility</span>
+                        <h3 class="text-xl font-bold">City Bus Detection</h3>
+                        <p class="text-sm opacity-80">National Level Ideation selection at INAE GITAM University.</p>
+                    </a>
+
+                    <a href="#" class="bento-item bento-item-4 cursor-link group">
+                        <span class="tag mb-2">Power BI</span>
+                        <h3 class="text-xl font-bold">Data Dashboard</h3>
+                        <p class="text-sm opacity-80">Client-focused reporting from Infosys Foundation program.</p>
+                    </a>
+
+                    <a href="https://github.com/dehavlogger13" target="_blank" class="bento-item bento-item-5 cursor-link group">
+                        <div class="flex items-center h-full">
+                            <h3 class="text-xl font-bold">View My GitHub</h3>
+                            <img src="github-logo.jpg" 
+                                 alt="GitHub" 
+                                 class="w-24 h-24 object-cover rounded-lg ml-auto group-hover:rotate-6 transition-transform">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/dehavlogger13?tab=repositories" target="_blank" class="bento-item bento-item-6 cursor-link group flex flex-col justify-center items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-2 text-accent"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                        <h3 class="text-xl font-bold">All Repositories</h3>
+                        <p class="text-sm opacity-80">Explore my C, C++, Java, and Python code.</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="about" class="py-24 grid grid-cols-1 md:grid-cols-3 gap-12 items-center fade-in-section">
+                <div class="md:col-span-1">
+                    <img src="photo.jpg" 
+                         alt="Dehaleesan KR"
+                         class="rounded-lg shadow-xl w-full h-auto object-cover aspect-square">
+                </div>
+                <div class="md:col-span-2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-400 mb-4">
+                        Hello! I'm Dehaleesan KR, a B.Tech Information Technology graduate (2025) from Dhanalaskshmi Srinivasan Engineering College with an 8.23 CGPA.
+                    </p>
+                    <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+                        I am a believer of excellence, eager to learn new technologies and methodologies. My goal is to work in a Multinational Corporation where I can utilize my skills in Full Stack Web Development and Data Analytics to solve real-world problems. I am a dedicated team worker with strong leadership and adaptability skills.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="resume.pdf" download class="bg-accent text-white font-medium py-3 px-6 rounded-lg transition-all transform shadow-lg hover:bg-accent-hover hover:scale-105 cursor-link">
+                            Download My Resume
+                        </a>
+                        <button id="open-ai-assistant-btn" class="bg-card border border-border font-medium py-3 px-6 rounded-lg transition-all shadow-sm hover:border-accent hover:text-accent cursor-link text-gray-900 dark:text-white">
+                            ✨ Ask my AI Assistant
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="py-24 text-center fade-in-section">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12">Technical Skills</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="bg-card border border-border p-6 rounded-lg shadow-sm transition-all duration-300 hover:shadow-xl hover:transform hover:-translate-y-2 hover:border-accent">
+                        <h3 class="text-xl font-semibold mb-2">Languages</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">C, C++, Java, Python</p>
+                    </div>
+                    <div class="bg-card border border-border p-6 rounded-lg shadow-sm transition-all duration-300 hover:shadow-xl hover:transform hover:-translate-y-2 hover:border-accent">
+                        <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Full Stack Development, HTML, CSS, Responsive Design</p>
+                    </div>
+                    <div class="bg-card border border-border p-6 rounded-lg shadow-sm transition-all duration-300 hover:shadow-xl hover:transform hover:-translate-y-2 hover:border-accent">
+                        <h3 class="text-xl font-semibold mb-2">Data Analytics</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Power BI, Dashboard Creation, Data Visualization</p>
+                    </div>
+                    <div class="bg-card border border-border p-6 rounded-lg shadow-sm transition-all duration-300 hover:shadow-xl hover:transform hover:-translate-y-2 hover:border-accent">
+                        <h3 class="text-xl font-semibold mb-2">Tools</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">MS Word, Excel, PowerPoint, Git, IOT</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="py-24 fade-in-section">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Reference</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-card border border-border p-8 rounded-lg shadow-sm">
+                        <p class="text-lg text-gray-700 dark:text-gray-300 italic mb-6">"Learned full stack WEB DEVELOPMENT and its frameworks. Understood how to build responsive and interactive web pages effectively."</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full mr-4 bg-gray-300 flex items-center justify-center font-bold text-gray-600">CL</div>
+                            <div>
+                                <h4 class="font-semibold">Cloud Logic Technology</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Pondicherry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-card border border-border p-8 rounded-lg shadow-sm">
+                        <p class="text-lg text-gray-700 dark:text-gray-300 italic mb-6">"Learned DATA ANALYTICS through the Infosys Foundation School for Employability Program conducted by ICT Academy."</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full mr-4 bg-gray-300 flex items-center justify-center font-bold text-gray-600">IA</div>
+                            <div>
+                                <h4 class="font-semibold">ICT Academy</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Program Partner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           <section id="contact" class="py-24 text-center fade-in-section">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto">
+        I'm currently available for new projects and job opportunities.
+        Let's have a chat!
+    </p>
+    <form action="#" method="POST" class="max-w-lg mx-auto text-left" id="contact-form">
+        <div class="mb-4">
+            <label for="name" class="block text-sm font-medium mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent transition-all cursor-link" required>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent transition-all cursor-link" required>
+        </div>
+        <div class="mb-6">
+            <label for="message" class="block text-sm font-medium mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent transition-all cursor-link" required></textarea>
+            <button type="button" id="open-draft-helper-btn" class="cursor-link text-sm text-accent hover:underline mt-2">
+                ✨ Help me draft my message
+            </button>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="bg-accent text-white font-medium py-3 px-6 rounded-lg transition-all transform shadow-lg hover:bg-accent-hover hover:scale-105 cursor-link">
+                Send Message
+            </button>
+        </div>
+    </form>
+</section>
+        </main>
+
+        <footer class="py-12 border-t border-gray-200 dark:border-gray-800">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 md:mb-0">
+                    &copy; 2025 Dehaleesan KR. Cuddalore, Tamil Nadu. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="https://www.linkedin.com/in/dehaleesan-k-r-64ab35249/" target="_blank" class="nav-link-custom cursor-link">LinkedIn</a>
+                    <a href="https://github.com/dehavlogger13" target="_blank" class="nav-link-custom cursor-link">GitHub</a>
+                    <a href="mailto:dehaleesanraju@gmail.com" class="nav-link-custom cursor-link">Email</a>
+                </div>
+            </div>
+        </footer>
+
+    </div> <div id="gemini-modal" class="modal-backdrop fixed inset-0 z-[100] flex items-center justify-center p-4 hidden opacity-0">
+        <div class="modal-content w-full max-w-lg rounded-2xl shadow-2xl p-6 opacity-0 translate-y-4">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="gemini-modal-title" class="text-2xl font-bold">Modal Title</h3>
+                <button id="gemini-modal-close" class="cursor-link p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            
+            <div id="gemini-modal-body">
+                <div id="gemini-response-area" class="h-64 overflow-y-auto p-4 bg-gray-100 dark:bg-gray-950 rounded-lg border border-gray-200 dark:border-gray-800 mb-4 text-sm space-y-2">
+                    <p id="gemini-modal-intro" class="text-gray-600 dark:text-gray-400">Welcome! How can I assist you?</p>
+                </div>
+
+                <div id="gemini-loading" class="hidden flex justify-center items-center h-64 mb-4">
+                    <div class="loader"></div>
+                </div>
+
+                <div class="relative">
+                    <input type="text" id="gemini-modal-input" class="w-full px-4 py-3 rounded-lg bg-card border border-border focus:outline-none focus:ring-2 focus:ring-accent transition-all cursor-link pr-24" placeholder="Your question or keywords...">
+                    <button id="gemini-modal-submit" class="cursor-link absolute right-2 top-1/2 -translate-y-1/2 bg-accent text-white font-medium py-2 px-4 rounded-md hover:bg-accent-hover transition-colors">
+                        Generate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
