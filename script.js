@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. Typewriter Effect (Running Letters) ---
     const textElement = document.getElementById('typewriter');
     // The text you wanted
-    const textToType = "Web Developer | IoT Enthusiast | Data Analyst | Content Ceator | Freelancer";
+    const textToType = "Web Developer | IoT Enthusiast | Data Analyst | Content Creator | Freelancer";
     let charIndex = 0;
     const typingSpeed = 100; // Speed in ms
 
@@ -233,4 +233,5 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.key === 'Enter') modalSubmitBtn.click();
         });
     }
+
 });
